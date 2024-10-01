@@ -1,0 +1,14 @@
+
+st=input("enter string:")
+
+index=0
+print("characters in forward direction:")
+while index<len(st):
+    print(st[index])
+    index+=1
+
+index=len(st)-1
+print("characters in backward direction:")
+while index>=0:
+    print(st[index])
+    index-=1
